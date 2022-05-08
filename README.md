@@ -1,30 +1,41 @@
-# Overview
+# Monster Defense 2D Shooting Game
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Monster Defense is a 2D Top-Down shooter where you defend yourself against different monsters and see how long you can last! Try and beat the high score by shooting while keeping yourself free of the evil monsters.
 
-{Provide a description the game that you wrote. Describe how to play your game.}
+Play in one of 3 gamemodes - easy, hard, and expert (which is almost impossible)
 
-{Describe your purpose for writing this software.}
+The controls are simple:
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the game being played and a walkthrough of the code.}
+* Use WASD to move around
+* Use the mouse to aim your gun
+* Click the mouse to shoot
+* and press Q to switch gamemodes. Simple as that!
 
-[Software Demo Video](http://youtube.link.goes.here)
+I made this game to increase my proficiency in C# while having fun at the same time.
+
+It was a great learning experience, and there is still much I could do to polish this game.
+
+I encourage you to look at the repository, there is a lot there!
+
+
+[Software Demo Video](https://youtu.be/By1LOKaRfs4)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+This was made using base Unity settings as well as textures and images that I purchased on the Unity Asset Store.
 
-{Describe the programming language that you used and any libraries.}
+The code itself was written in C# and uses .NET
+
+My Unity release is 2021.2.13f1 (for silicon)
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [PressStart.vip](https://pressstart.vip)
+* [Unity Scripting API Documentation](https://docs.unity3d.com/ScriptReference/)
 
-# Future Work
+# What still could be done
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Gun Upgrades
+* Sounds!!
+* Player can still leave the screen (red flag!!)
