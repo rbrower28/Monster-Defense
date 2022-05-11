@@ -16,14 +16,14 @@ public class ScoreCounter : MonoBehaviour
     [SerializeField] int high;
 
 
-    public void AddScore()
+    public void AddScore(int scoreAdd)
     {
         // pulls the score and high score from whatever they currently are on screen
         score = Int32.Parse(scoreCount.text.ToString());
         high = Int32.Parse(highScore.text.ToString());
         
         // add 1 to the score and resets the current score on screen
-        score++;
+        score += scoreAdd;
         scoreCount.text = score.ToString();
 
         // given that the score is higher than the high score, updates to match

@@ -16,7 +16,7 @@ public class DeployEnemy : MonoBehaviour
     [SerializeField] Difficulty difText;
 
     // sets the respawn time and the list index of which spawn point
-    [SerializeField] float respawnTime = 1f;
+    [SerializeField] float respawnTime = 2f;
     [SerializeField] int spawnIndex;
     
     // references to the 10 spawn points
@@ -55,7 +55,6 @@ public class DeployEnemy : MonoBehaviour
 
     private void SpawnEnemy(GameObject clone)
     {
-        Debug.Log(clone);
         // creates a new instance of the monster
         GameObject x = Instantiate(clone) as GameObject;
         // GameObject x = PrefabUtility.InstantiatePrefab(PrefabUtility.GetCorrespondingObjectFromSource(enemy2Prefab)) as GameObject;

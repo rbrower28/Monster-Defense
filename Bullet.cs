@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
         GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
 
         // removes the bullet and the explosion (after about one full animation)
-        Destroy(effect, .7f);
+        Destroy(effect, .49f);
         Destroy(gameObject);
     }
 }

@@ -45,7 +45,7 @@ public class EnemyHealth : MonoBehaviour
 
             // accesses the score sprite and adds one
             // the logic for high score is covered on the ScoreCounter.cs file
-            scoreCounter.AddScore();
+            scoreCounter.AddScore(maxHealth);
         }
     }
 }
